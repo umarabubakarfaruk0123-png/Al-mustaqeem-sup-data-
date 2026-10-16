@@ -1,0 +1,16 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; padding:0; background:#f6f8fa; color:#111 }
+.container { max-width:980px; margin:0 auto; padding:16px }
+header { text-align:center; margin-bottom:16px }
+.muted { color:#666 }
+.small { font-size:12px }
+.products { display:flex; flex-wrap:wrap; gap:8px }
+.card { background:#fff; padding:12px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.06); cursor:pointer; min-width:140px }
+.card.selected { border:2px solid #2563eb }
+.panel { margin-bottom:16px }
+input { width:100%; padding:8px; border-radius:6px; border:1px solid #ddd }
+button { padding:8px 12px; border-radius:6px; border:0; background:#2563eb; color:#fff }
+button:disabled { opacity:0.6 }
+.order { margin-top:12px }
+.message { margin-top:12px; padding:8px; background:#fff3cd; border-radius:6px }
+
+@media (max-width:600px){ .products{flex-direction:column} .container{padding:12px} }

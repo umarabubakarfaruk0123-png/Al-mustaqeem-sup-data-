@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+.env
+*.sqlite
+.vscode/
+dist/
+build/
+coverage/
